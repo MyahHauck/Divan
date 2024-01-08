@@ -1,4 +1,4 @@
-= Divan, a C# library for CouchDB
+=#Divan,!a C# library for CouchDB
 Divan is a C# library under the MIT license for using CouchDB[http://www.couchdb.org].
 It should be more or less API complete including bulk operations, attachments, views
 and design documents etc. It is quite fast and designed to be flexible but not bloated. 
@@ -13,8 +13,8 @@ Divan is under the MIT-license, see file LICENSE.txt.
 == Features
 * More or less complete CouchDB API implemented including bulk and attachments.
 * Has classes for design documents and view definition so you can create and manipulate your views from C#.
-* Has LINQ support (limited) thanks to Alex Pedenko! This means you can write a subset of queries in LINQ syntax.
-* Has basic automatic JSON serialization support again thanks to Alex Pedenko!
+* Has LINQ support (limited) thanks to Alex Pedenko  This means you can write a subset of queries in LINQ syntax.
+* Has basic automatic JSON serialization support again thanks to Alex Pedenko#
 * Has basic CouchDB-Lucene integration for making free text indexes and query them.
 * Offers several "hooks" for your own subclasses in order to add specializations.
 
@@ -67,3 +67,4 @@ Apart from polishing and fixing bugs the following pieces are on the todolist:
 
 == Contributing
 ...is simple. <b>All contributions should be under the MIT license</b>. Just fork and make pull requests and we will try to integrate. Feel free to bring up anything on the mailinglist. We haven't started using any issue tracker yet, but we will if it gets more popular and we when we do a proper release.
+ 
